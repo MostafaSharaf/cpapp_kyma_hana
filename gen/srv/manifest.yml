@@ -1,11 +1,8 @@
 ---
 applications:
-  - name: cpapp-db-deployer
+  - name: cpapp-srv
     path: .
-    no-route: true
-    health-check-type: process
     memory: 256M
     buildpacks:
       - nodejs_buildpack
     services:
-      - cpapp-db

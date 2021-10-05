@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: cpapp
-        image: docker-registry.c-79852f7.kyma.shoot.live.k8s-hana.ondemand.com/cpapp
+        image: msharaf2020/cpapp
         imagePullPolicy: Always
         ports:
         - containerPort: 4004
